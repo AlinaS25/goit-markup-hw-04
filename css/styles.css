@@ -7,6 +7,7 @@
   --fill-color: #2f303a;
   --button-active-color: #188ce8;
   --card-border-color: #eee;
+  --background-color: #F5F4FA;
 }
 h1,
 h2,
@@ -124,7 +125,7 @@ li {
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
+    url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-color: var(--fill-color);
   background-position: center;
@@ -212,6 +213,10 @@ section {
   letter-spacing: 0.03em;
   width: 270px;
   color: var(--secondary-text-color);
+}
+.antena-icon{
+  
+
 }
 
 .skill-name {
