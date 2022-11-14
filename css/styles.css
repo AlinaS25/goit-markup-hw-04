@@ -102,6 +102,9 @@ li {
   gap: 30px;
   align-items: center;
 }
+.contacts-icon{
+  margin-left: 10px;
+}
 
 .link-header-mail {
   list-style: none;
@@ -307,6 +310,17 @@ section {
   text-align: center;
 }
 
+.social-icons-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.social:hover,
+.social:focus{
+  fill: var(--highlight-color);
+}
 .sec-one-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
