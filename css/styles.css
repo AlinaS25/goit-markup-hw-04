@@ -499,7 +499,9 @@ border-radius: 4px;
 .footer-links:focus {
   color: var(--highlight-color);
 }
-
+.social-footer-wrap .social-media-icons {
+  fill: #fff;
+  }
 .join-us-header{
   font-weight: 700;
 font-size: 14px;
