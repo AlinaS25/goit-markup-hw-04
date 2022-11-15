@@ -317,8 +317,13 @@ section {
   gap: 10px;
 }
 
-.social:hover,
-.social:focus{
+.social-media-icons{
+  width: 44px;
+  height: 44px;
+
+}
+.a-icons:hover,
+a.icons:focus{
   fill: var(--highlight-color);
 }
 .sec-one-portfolio {
