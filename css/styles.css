@@ -346,6 +346,22 @@ a.icons:focus{
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.clients-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+margin-top: 94px;
+}
+.clients-icons-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
 .button-list {
   display: flex;
   flex-direction: row;
