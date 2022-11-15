@@ -338,15 +338,10 @@ background-color: var(--highlight-color);
   border-radius: 100%;
 }
 
-.a-icons:hover,
-a.icons:focus{
-  fill: var(--highlight-color);
-}
-.sec-one-portfolio {
+.clients{
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .clients-header{
 font-weight: 700;
 font-size: 36px;
@@ -354,14 +349,28 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
-margin-top: 94px;
 }
-.clients-icons-list{
+.clients-icons{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   gap: 30px;
 }
+ .clients-icons-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+border-radius: 4px;
+ }
+.sec-one-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+
 .button-list {
   display: flex;
   flex-direction: row;
