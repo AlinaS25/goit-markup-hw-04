@@ -359,6 +359,10 @@ margin-bottom: 50px;
 .clients-icons{
   fill: var(--icon-color);
 }
+.clients-icons-link:hover .clients-icons,
+.clients-icons-link:focus .clients-icons{
+fill: var(--highlight-color);
+}
 
  .clients-icons-link{
   display: flex;
@@ -368,6 +372,11 @@ margin-bottom: 50px;
   height: 92px;
   border: 1px solid var(--icon-color);
 border-radius: 4px;
+ }
+
+ .clients-icons-link:hover,
+ .clients-icons-link:focus  {
+  border: 1px solid var(--highlight-color);
  }
 
 .sec-one-portfolio {
@@ -488,4 +497,13 @@ border-radius: 4px;
 .footer-links:hover,
 .footer-links:focus {
   color: var(--highlight-color);
+}
+
+.join-us-header{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-white-color);
 }
