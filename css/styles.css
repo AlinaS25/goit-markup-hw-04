@@ -103,8 +103,14 @@ li {
   align-items: center;
 }
 .contacts-icon{
-  margin-left: 10px;
+  margin-right: 10px;
 }
+.link-header-number:hover .contacts-icon {
+  fill: var(--highlight-color);
+  } 
+  .link-header-mail:hover .contacts-icon {
+    fill: var(--highlight-color);
+    }  
 
 .link-header-mail {
   list-style: none;
